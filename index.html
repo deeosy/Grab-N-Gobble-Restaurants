@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grab N' Gobble</title>
+    <!-- font-awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- tailwind CSS  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to the file hosted on your server, -->
+    <link rel="stylesheet" href="path-to-the-file/splide.min.css">
+    <!-- or link to the CDN -->
+    <link rel="stylesheet" href="url-to-cdn/splide.min.css">
+    <!-- splide  -->
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- header  -->
+     <header id="home">
+        <!-- navbar  -->
+         <nav id="nav">
+          <div class="nav-center">
+            <!-- nav header  -->
+             <div class="nav-header">
+              <div class="flex justify-center items-center gap-2">
+                <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/05ae41b3add8e29ba49e837072af928a~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=1d00f5c8&x-expires=1741636800&x-signature=v7qM7NiKmgxp%2BgaHGgi9pR%2BXL2I%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=maliva" alt="logo" class="logo rounded-lg" >
+                <p class="!text-[18px]    " >Grab N' Gobble</p>
+              </div>
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+             </div>
+             <!-- links  -->
+             <div class="links-container">
+              <ul class="links ">
+                <li>
+                  <a href="#home" class="scroll-link">home</a>
+                </li>
+                <li>
+                  <a href="#about" class="scroll-link">about</a>
+                </li>
+                <li>
+                  <a href="#contact" class="scroll-link">contact</a>
+                </li>
+                <li>
+                  <a href="#menu" class="scroll-link">menu</a>
+                </li>
+                <li>
+                  <a href="#gallery" class="scroll-link">gallery</a>
+                </li>
+              </ul>              
+             </div>
+          </div>
+         </nav>
+         <!-- banner  -->
+          <div class="banner relative">
+            <img src="https://www.preciouscore.com/wp-content/uploads/2024/03/Loaded-French-Fries.jpg" alt="" class="h-full w-full object-cover absolute -z-10 ">
+            <div class="flex flex-col relative ">
+              <div class="container">
+                <h1 >Enjoy Your Healthy
+                  Delicious Food</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nobis? Necessitatibus distinctio inventore eaque! Molestiae architecto maiores iste temporibus quis!</p>
+                <a href="#menu" class="scroll-link btn btn-white ">
+                  Menu
+                </a>
+              </div>
+            </div>
+          </div>
+     </header>
+     <!-- about  -->
+      <section id="about" class="section">
+        <div class="title ">
+          <h2 class="">Learn More<span> About Us</span></h2>
+          <div class="flex flex-col gap-3 px-3 py-5 md:grid md:grid-cols-5 md:grid-rows-5 md:gap-4 md:h-[80vh] md:w-full ">
+            <div class="md:col-span-3 md:row-span-4 ">
+              <img src="https://themewagon.github.io/yummy-red/assets/img/about.jpg" alt="" class="h-full w-full  object-cover" >
+            </div>
+            <div class="md:col-span-2 md:row-span-2 md:col-start-4 md:text-[12px] ">
+              <p class="" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="flex items-center" >
+                <img src="./check-circle-svgrepo-com.svg" alt="check-icon" class="!w-[16px] !h-[16px] mx-3" >
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p class="flex items-center" >
+                <img src="./check-circle-svgrepo-com.svg" alt="check-icon" class="!w-[16px] !h-[16px] mx-3" >
+                Duis aute irure dolor in reprehenderit in voluptate velit.
+              </p>
+              <p class="flex items-center" >
+                <img src="./check-circle-svgrepo-com.svg" alt="check-icon" class=" !w-[16px] !h-[16px] mx-3 " >
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+              </p>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+            <div class="flex flex-col justify-center items-center md:col-span-3 md:col-start-1 md:row-start-5 border border-[#3ecfd3] text-center py-3 ">
+              <p class=" " >Order A Meal Now</p>
+              <p class="text-[20px] ">+233 558 203 360</p>
+            </div>
+            <div class="flex md:col-span-2 md:row-span-2 md:col-start-4 md:row-start-4 lg:row-span-3 ">
+              <video src="./Grab n Gobble video.mp4" id="js-food-video"  class="w-full h-[370px] md:h-full object-cover " >Video not support</video>
+            </div>
+        </div>
+        </div>
+      </section>
+      <!-- contact  -->
+      <section id="contact" class="section">
+        <div class="title">
+          <h2>our <span>contact</span></h2>
+          <div class="h-full w-full flex-col gap-2 sm:justify-between md:gap-6 my-5 px-3 gap-3 md:px-[50px] ">
+            <div class="flex justify-center w-full mb-[20px] ">
+              <iframe class="w-full  " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12246.85536735861!2d-0.15264471952506223!3d5.632999564572254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf8500328dcd57%3A0x70c2fa158255a92a!2sGrab%20n%20gobble!5e0!3m2!1sen!2sgh!4v1741518550491!5m2!1sen!2sgh" width="600" height="450" style="border: 0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="flex flex-col gap-2 md:grid md:grid-cols-2   ">
+              <!-- telephone card -->
+              <div class="flex items-center py-2 justify-center border-[1px] border-[#3ecfd3] hover:shadow-lg ">
+                <img src="./telephone-round-svgrepo-com.svg" alt="telephone icon" class="!w-[40px] !h-[40px] lg:!w-[60px] lg:!h-[60px] mx-3" >
+                <div class="">
+                  <p class="font-bold text-[20px] md:text-[24px] " >Call Us</p>
+                  <p class="text-[16px] md:text-[20px] ">+233 558 203 360</p>
+                </div>
+              </div>
+              <!-- working hours -->
+              <div class="flex items-center py-2 justify-center border-[1px] border-[#3ecfd3] hover:shadow-lg ">
+                <img src="./time-icon.svg" alt="telephone icon" class="!w-[40px] !h-[40px] lg:!w-[60px] lg:!h-[60px] mx-3" >
+                <div class="">
+                  <p class="font-bold text-[20px] md:text-[24px] " >Opening Hours</p>
+                  <p class="text-[16px] md:text-[20px] ">+233 558 203 360</p>
+                </div>
+              </div>
+              <!-- address card -->
+              <div class="flex items-center py-2 justify-center border-[1px] border-[#3ecfd3] hover:shadow-lg ">
+                <img src="./location-pin.svg" alt="telephone icon" class="!w-[40px] !h-[40px] lg:!w-[60px] lg:!h-[60px] mx-3" >
+                <div class="">
+                  <p class="font-bold text-[20px] md:text-[24px] " >Address</p>
+                  <p class="text-[16px] md:text-[20px] ">+233 558 203 360</p>
+                </div>
+              </div>
+              <!-- email card -->
+              <div class="flex items-center py-2 justify-center border-[1px] border-[#3ecfd3] hover:shadow-lg ">
+                <img src="./email.svg" alt="telephone icon" class="!w-[40px] !h-[40px] lg:!w-[60px] lg:!h-[60px] mx-3" >
+                <div class="">
+                  <p class="font-bold text-[20px] md:text-[24px] " >Email Us</p>
+                  <p class="text-[16px] md:text-[20px] ">+233 558 203 360</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu  -->
+      <section id="menu" class="section">
+        <div class="title">
+          <h2>featured <span>menu</span></h2>
+          <div class="bg-black text-white font-sans my-[20px] ">
+            <div class="max-w-4xl mx-auto p-4">
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <!-- Stater -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                    <h2 class="text-xl font-bold">STATER</h2>
+                    <p>Vegetable Samosa - 50ghc</p>
+                    <p>Beef Samosa - 50ghc</p>
+                    <p>Vegetable Springroll - 50ghc</p>
+                    <p>Beef Springroll - 50ghc</p>
+                  </div>
+      
+                  <!-- Sides -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                    <h2 class="text-xl font-bold">SIDES</h2>
+                    <p>Jollof - 40ghc</p>
+                    <p>Egg Fried Rice - 40ghc</p>
+                    <p>Vegetable Fried Rice - 45ghc</p>
+                    <p>Yam Chips - 40ghc</p>
+                    <p>Potato Fries - 40ghc</p>
+                    <p>Banku - 5ghc</p>
+                  </div>
+              </div>
+      
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                  <!-- Chicken Meals -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                      <h2 class="text-xl font-bold">CHICKEN MEALS</h2>
+                      <p>Drumsticks with Jollof/Fried Rice - 150ghc</p>
+                      <p>Chicken Wings with Jollof/Fried Rice - 150ghc</p>
+                  </div>
+      
+                  <!-- Turkey Meals -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                      <h2 class="text-xl font-bold">TURKEY MEALS</h2>
+                      <p>Turkey with Jollof/Fried Rice - 150ghc</p>
+                  </div>
+              </div>
+      
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                  <!-- Wings Bowls -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                      <h2 class="text-xl font-bold">WINGS BOWLS</h2>
+                      <p>6 Pieces - 100ghc</p>
+                      <p>8 Pieces - 120ghc</p>
+                      <p>10 Pieces - 150ghc</p>
+                  </div>
+      
+                  <!-- Fast Food -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                      <h2 class="text-xl font-bold">FAST FOOD</h2>
+                      <p>Stirfried Noodles - 80ghc</p>
+                      <p>Stirfried Spaghetti - 70ghc</p>
+                      <p>Assorted Jollof - 150ghc</p>
+                      <p>Assorted Fried Rice - 150ghc</p>
+                  </div>
+              </div>
+      
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                  <!-- Extras -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                      <h2 class="text-xl font-bold">EXTRAS</h2>
+                      <p>Plantain - 10ghc</p>
+                      <p>Avocado - 10ghc</p>
+                      <p>Fried Eggs - 10ghc</p>
+                  </div>
+      
+                  <!-- Loaded Fries -->
+                  <div class="bg-gray-800 p-4 rounded-lg">
+                      <h2 class="text-xl font-bold">LOADED FRIES</h2>
+                      <p>Standard - 120ghc</p>
+                      <p>Fully Loaded - 150ghc</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- gallery  -->
+      <section id="gallery" class="section">
+        <div class="title ">
+          <h2>our <span>gallery</span></h2>
+          <div class="splide mt-[30px] px-3 w-[full] md:py-10 " role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track h-[500px] w-full py-10   ">
+              <ul class="splide__list md:flex md:gap-8 h-full w-full  ">
+                <li class="splide__slide"><img src="https://therecipecritic.com/wp-content/uploads/2023/02/loaded-fries-4-667x1000.jpg" alt="" class="h-full w-full object-cover rounded-lg  " ></li>
+                <li class="splide__slide"><img src="https://therecipecritic.com/wp-content/uploads/2023/02/loaded-fries-4-667x1000.jpg" alt="" class="h-full w-full object-cover rounded-lg  " ></li>
+                <li class="splide__slide"><img src="https://therecipecritic.com/wp-content/uploads/2023/02/loaded-fries-4-667x1000.jpg" alt="" class="h-full w-full object-cover rounded-lg  " ></li>
+                <li class="splide__slide"><img src="https://therecipecritic.com/wp-content/uploads/2023/02/loaded-fries-4-667x1000.jpg" alt="" class="h-full w-full object-cover rounded-lg  " ></li>
+                <li class="splide__slide"><img src="https://therecipecritic.com/wp-content/uploads/2023/02/loaded-fries-4-667x1000.jpg" alt="" class="h-full w-full object-cover rounded-lg  " ></li>
+                
+                <li class="splide__slide"><img src="https://therecipecritic.com/wp-content/uploads/2023/02/loaded-fries-4-667x1000.jpg" alt="" class="h-full w-full object-cover rounded-lg  " ></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer  -->
+       <footer class="section !pt-2">
+        <div class="container mx-auto py-3 flex flex-wrap justify-between text-center md:text-left w-full ">
+
+          <!-- Address -->
+          <div class="hidden lg:flex lg:flex-col w-full lg:w-1/4 ">
+            <div class="flex gap-3">
+              <img src="./location-pin.svg" alt="telephone icon" class="!w-[30px] !h-[30px] mx-3" >
+              <div class="flex flex-col">
+                <h4 class="font-bold text-lg text-white">Address</h4>
+                <p class="text-gray-300 text-left text-sm !m-0 ">A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Contact -->
+          <div class="hidden lg:flex lg:flex-col w-full lg:w-1/4 ">
+            <div class="flex gap-3">
+              <img src="./telephone-round-svgrepo-com.svg" alt="telephone icon" class="!w-[30px] !h-[30px]" >
+              <div class="flex flex-col">
+                <h4 class="font-bold text-lg text-white">Contact</h4>
+                <p class="text-gray-300 text-left text-sm !m-0 ">
+                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <strong>Email:</strong> info@example.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="hidden lg:flex lg:flex-col w-full lg:w-1/4 ">
+            <div class="flex gap-3">
+              <img src="./time-icon.svg" alt="telephone icon" class="!w-[30px] !h-[30px]" >
+              <div class="flex flex-col">
+                <h4 class="font-bold text-lg text-white">Opening Hours</h4>
+                <p class="text-gray-300 text-left text-sm !m-0 ">
+                  <strong>Mon-Sat:</strong> 11AM - 11PM<br>
+                  <strong>Sunday:</strong> Closed
+                </p>
+              </div>
+            </div>
+          </div>
+
+  
+          <!-- Social Media -->
+          <div class="w-full lg:w-1/4">
+              <h4 class="font-bold text-lg mb-3 text-white ">Follow Us</h4>
+              <div class="flex justify-center md:justify-start space-x-3">
+                  <a href="#" class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full text-white hover:bg-[#3ecfd3] hover:border-[#3ecfd3] transition">
+                      <i class="fab fa-twitter "></i>
+                  </a>
+                  <a href="#" class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full text-white hover:bg-[#3ecfd3] hover:border-[#3ecfd3] transition">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full text-white hover:bg-[#3ecfd3] hover:border-[#3ecfd3] transition">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#" class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full text-white hover:bg-[#3ecfd3] hover:border-[#3ecfd3] transition">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+              </div>
+          </div>
+  
+      </div>
+        <div class="border-t-[1px] border-[#3ecfd3] my-3  "></div>
+        <p>copyright &copy; <span class="font-bold" >Grab N' Gobble </span>Restaurant <span id="date" ></span>. all rights reserved </p>
+
+       </footer>
+       <!-- back to top btn  -->
+        <a href="#home" class="scroll-link top-link">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+        <!-- splide -->
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
